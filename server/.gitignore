@@ -1,0 +1,6 @@
+node_modules
+.env
+src/public/images/events/*
+src/public/images/notices/*
+src/public/images/posts/*
+src/public/images/profiles/*

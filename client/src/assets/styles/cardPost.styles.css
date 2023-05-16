@@ -1,0 +1,263 @@
+.card-post-container{
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+.card-post-sections{
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 18px -3px rgb(0 0 0 / 75%);
+    margin-top: 30px;
+}
+.card-post-section-title{
+    width: 100%;
+    height: auto;
+}
+.card-post-author-info{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+}
+.card-post-author-image-content{
+    width: 70px;
+    height: 70px;
+}
+.card-post-author-image-content>img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.card-post-author-name-date-content{
+    width: 520px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.card-post-author-name-edit-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-post-author-name-edit-content>a>h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-post-title-content{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.card-post-section-image{
+    width: 570px;
+    height: 500px;
+    margin: auto;
+}
+.card-post-image-content{
+    width: 100%;
+    height: 100%;
+}
+.card-post-image-content>img{
+    width: 100%;
+    height: 100%;
+}
+.card-post-section-comments{
+    margin-top: 10px;
+}
+.card-post-section-comments>span{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.comment-secctions{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+}
+.comment-section-image-content{
+    width: 10%;
+    height: 50px;
+}
+.comment-section-image-content>img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.comment-section-name-text{
+    width: 90%;
+    height: auto;
+    text-align: start;
+    padding-left: 8px;
+}
+.name-profile-and-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-list-more-options-comment{
+    cursor: pointer;
+}
+.btn-list-more-options-comment:hover>li>ul{
+    display: block;
+}
+.list-more-options-comment{
+    display: none;
+    padding: 5px;
+    width: 130px;
+    height: auto;
+    background-color: #e9ecef;
+    color: #000;
+    position: absolute;
+    border: .5px solid #6666;
+}
+.list-more-options-comment>li:hover{
+    background-color: #ffff;
+}
+.name-profile-and-options>a>h3{
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+}
+.comment-section-name-text>p{
+    font-size: 14px;
+}
+.show-more-comments-content{
+    width: 100%;
+    text-align: center;
+}
+.show-more-comments-content>button{
+    padding: 8px;
+    background-color: #ec971f;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.card-post-section-create-comment{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.card-post-section-create-comment-form{
+    width: 100%;
+    height: auto;
+}
+.card-post-section-create-comment-form>textarea{
+    width: 100%;
+    height: auto;
+    outline: none;
+    background-color: #e9ecef;
+    border: .5px solid #cccc;
+    padding: 5px;
+}
+.card-post-section-create-comment-form>button{
+    padding: 5px;
+    background-color: #ec971f;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.edit-comment-container{
+    width: 100%;
+    height: auto;
+}
+.edit-comment-container>textarea{
+    width: 100%;
+    height: auto;
+    outline: none;
+    background-color: #e9ecef;
+    border: .5px solid #cccc;
+    padding: 5px;
+}
+
+.edit-comment-btns>button{
+    padding: 5px;
+    background-color: #ec971f;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/*Create posts styles*/
+.create-post-card-container{
+    width: 600px;
+    height: auto;
+    background-color: #ffff;
+    box-shadow: 0px 1px 18px -3px rgb(0 0 0 / 75%);
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.create-post-card-sections{
+    width: 100%;
+    height: 100%;
+}
+.create-post-card-form{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.create-post-card-form>h3{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px;
+}
+.create-post-card-section-title>textarea{
+    width: 100%;
+    height: auto;
+    outline: none;
+    background-color: #e9ecef;
+    border: .5px solid #cccc;
+    padding: 5px;
+}
+.create-post-card-section-btn-send{
+    margin-top: 10px;
+    text-align: center;
+}
+.create-post-card-section-btn-send>button{
+    padding: 5px;
+    width: 150px;
+    background-color: #ec971f;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.btns-update-post-container{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btns-update-post-container>button{
+    padding: 5px;
+    width: 150px;
+    background-color: #ec971f;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card-post-title-content>textarea{
+    width: 100%;
+    height: auto;
+    outline: none;
+    background-color: #e9ecef;
+    border: .5px solid #cccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card-post-update-image-content{
+    width: 570px;
+    height: 500px;
+    margin-top: 15px;
+}
+.card-post-update-image-content>img{
+    width: 100%;
+    height: 100%;
+}

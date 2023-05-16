@@ -1,0 +1,27 @@
+.menu-student-kar:hover>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-edit-course:hover{
+    background-color: #EC971F;
+    cursor: pointer;
+}
+.menu-edit-course:hover>span:nth-child(1){
+    display: none;
+}
+.menu-edit-course:hover>div{
+    display: none;
+}
+.menu-edit-course:hover>span:nth-child(2){
+    display: block;
+}
+
+.menu-edit-schedule:hover>span{
+    display: none;
+}
+.menu-edit-schedule:hover>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

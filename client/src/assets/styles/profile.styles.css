@@ -1,0 +1,262 @@
+.profile-user-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff6e0;
+}
+.profile-user-card-sections{
+    width: 800px;
+    height: 450px;
+    background-color: #000814;
+    display: flex;
+    box-shadow: 0px 1px 22px -3px rgb(0 0 0 / 75%);
+    border-radius: 10px;
+}
+.profile-user-card-background{
+    content: "";
+    width: inherit;
+    height: 225px;
+    position: absolute;
+    z-index: 0;
+    background-image: url(../images/header-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*Card profile styles*/
+.profile-usaer-card-info{
+    width: 300px;
+    height: 80%;
+    z-index: 1;
+    margin-top: 8%;
+    color: #ffff;
+}
+.card-profile-section-info-student>div>span{
+    font-size: 16px;
+}
+.card-profile-container{
+    width: 100%;
+    height: 100%;
+}
+.card-profile-sections{
+    width: 100%;
+    height: 100%;
+}
+.card-profile-section-image{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-profile-image-content{
+    width: 220px;
+    height: 220px;
+}
+.card-profile-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card-profile-section-info-student{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.profile-user-card-more-info{
+    width: 500px;
+    height: 50%;
+    margin-top: 225px;
+    color: #ffff;
+}
+.profile-user-card-description{
+    width: 100%;
+    height: 80%;
+}
+.profile-user-card-description>h3{
+    padding-top: 10px;
+}
+.profile-user-card-social{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.profile-user-card-social>div{
+    margin-right: 8px;
+    cursor: pointer;
+}
+.profile-user-card-background:hover > .btn-edit-profile{
+    display: block;
+}
+.btn-edit-profile{
+    display: none;
+    float: right;
+    background-color: #ffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/*Card edit profile styles*/
+.card-edit-profile-container{
+    width: 800px;
+    height: 450px;
+    background-image: url(../images/header-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 1px 22px -3px rgb(0 0 0 / 75%);
+    border-radius: 10px;
+}
+.card-edit-profile-filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,8,20,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-edit-profile-image-content{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-edit-profile-image{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-edit-profile-image>img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: auto;
+}
+.card-edit-profile-image:hover>.btn-edit-image-user{
+    display: block;
+}
+.btn-edit-image-user{
+    display: none;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 160px;
+    padding: 6px;
+    border-radius: 50%;
+}
+.card-edit-profile-info-sections{
+    width: 500px;
+    height: 100%;
+}
+.card-edit-profile-info-section-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-edit-profile-info-section-form>div{
+    width: 100%;
+    height: 50px;
+    color: #ffff;
+}
+.card-edit-profile-info-section-form>div>input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #ffff;
+}
+.card-edit-profile-info-section-form>div:nth-child(4){
+    height: 80px;
+    width: 100%;
+}
+.card-edit-profile-info-section-form>div:nth-child(4)>textarea{
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #ffff;
+    max-height: 80px;
+    width: 90%;
+}
+.card-edit-profile-info-section-form>div>div>label>svg{
+    display: inline;
+}
+.card-edit-profile-info-section-form>div:nth-child(5){
+    width: 100%;
+    height: 200px;
+}
+.card-edit-profile-info-section-form>div>div{
+    width: 90%;
+    height: 50px;
+}
+.card-edit-profile-info-section-form>div>div>input{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #ffff;
+    margin-left: 10px;
+}
+.card-edit-profile-info-section-form>div>div:nth-child(4){
+    display: flex;
+    justify-content: center;
+}
+.card-edit-profile-info-section-form>div>div>button{
+    border-bottom: 2px solid #ffff;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Card edit image*/
+.card-edit-image-sections{
+    width: 300px;
+    height: 100%;
+}
+.card-edit-image-section-image{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-edit-image-section-image>img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: auto;
+}
+.card-edit-image-section-get-image{
+    width: 100%;
+    height: 50px;
+}
+.card-edit-image-section-get-image>input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffff;
+    background-color: transparent;
+}
+.card-edit-image-section-btns{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card-edit-image-section-btns>button{
+    color: #ffff;
+    background-color: transparent;
+    border-bottom: 2px solid #ffff;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}

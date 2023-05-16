@@ -1,0 +1,12 @@
+.main-header-background{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/header-background-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-header-filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
